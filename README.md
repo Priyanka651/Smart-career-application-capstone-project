@@ -218,4 +218,11 @@ Comprehensive career guidance pipeline
 
 SCAA helps job seekers save time, get personalized insights, and make better career decisions with accurate, AI-driven recommendations.
 
+# (Plan → Quiz → Evaluate → Predict Weakness → Revise → Adapt Next)
+SCAA plans the analysis, quizzes the resume, evaluates skills, predicts weaknesses, revises recommendations, and adapts its outputs to provide accurate, personalized career guidance.
+
 # ⭐ Flowchart Diagram
+![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/Architecture.png)
+
+ 
+
