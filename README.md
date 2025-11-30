@@ -333,7 +333,29 @@ print_final_answer(response)
 ![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/Cover_letter_generated.png)
 
 
+```
+import pdfplumber
 
+resume_path = "/kaggle/input/resumemain/resumeidea.pdf"
+
+def load_resume_from_pdf(path):
+    try:
+        with pdfplumber.open(path) as pdf:
+            text = ""
+            for page in pdf.pages:
+                extracted = page.extract_text()
+                if extracted:
+                    text += extracted + "\n"
+        return text
+    except Exception as e:
+        print("Error reading resume:", e)
+        return None
+
+resume_text = load_resume_from_pdf(resume_path)
+
+print("=== RESUME TEXT EXTRACTED ===\n")
+print(resume_text[:1500])   # show first part only
+```
 
 
 ![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/Resume_Text_Extracted.png)
