@@ -307,6 +307,29 @@ SCAA plans the analysis, quizzes the resume, evaluates skills, predicts weakness
 
 # 🧪 Sample Outputs
 
+```
+#Demo 4: Cover Letter Generator
+name = "Priyanka"
+target_role = "Junior Data Scientist"
+skills_list = extract_skills(resume_text)
+
+prompt = f"""
+Write a short, professional cover letter for {name} applying to a {target_role} role.
+
+Use these skills: {skills_list}
+
+Structure:
+- 1 short intro paragraph
+- 1 paragraph about skills + impact
+- 1 closing paragraph
+
+Keep it under 200 words.
+"""
+
+response = await ask_agent(prompt)
+print_final_answer(response)
+```
+
 ![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/Cover_letter_generated.png)
 
 
