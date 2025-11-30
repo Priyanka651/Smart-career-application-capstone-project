@@ -8,7 +8,9 @@ A simple and intelligent AI-powered career assistant that helps job seekers anal
 
 # Team Members
 Priyanka
+
 Monika Dhukia
+
 Shrishti Yadav
 
 # 🚀 Project Overview
