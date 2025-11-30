@@ -132,10 +132,6 @@ Deploying a simple web UI
 
 Creating job–resume match scoring
 
-# 💡 Project Goal
-
-To help job seekers get instant, meaningful guidance and reduce the stress of preparing job applications.
-
 # ⭐ Architecture Overview
 
 The Smart Career Application Assistant (SCAA) follows a modular pipeline architecture combining PDF processing, custom tools, LLM reasoning, and external search integration.
