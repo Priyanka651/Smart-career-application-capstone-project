@@ -1,5 +1,9 @@
 # Smart-career-application
-A simple and intelligent AI-powered tool that helps job seekers analyze their resume, extract skills, get job role suggestions, check market trends, and generate professional cover letters.
+
+
+# Google × Kaggle Agents Intensive – Capstone Project
+# 🏆 Hackathon Writeup
+A simple and intelligent AI-powered career assistant that helps job seekers analyze their resume, extract skills, get job role recommendations, check market trends, and generate professional cover letters — all inside a single Kaggle Notebook.
 ![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/SCAA.png?raw=true)
 
 # Team Members
@@ -7,73 +11,111 @@ Priyanka
 Monika Dhukia
 Shrishti Yadav
 
-
-# Google × Kaggle Agents Intensive – Capstone Project
-# 🏆 Hackathon Writeup + Full System Documentation
-
 # 🚀 Project Overview
 The Smart Career Application Assistant (SCAA) uses Google’s Agent Development Kit (ADK) and Gemini LLM to understand resumes and give helpful career guidance.
-This system automatically:
-Reads and extracts text from a PDF resume
-Finds skills using a custom Python skill extractor
-Suggests job roles that match the skills
-Provides resume improvement tips
-Uses Google Search to check real-time job market trends
-Generates a short personalized cover letter
-This makes the job preparation process much faster and easier.
+The system automatically:
+
+📄 Reads and extracts text from a PDF resume
+
+🎯 Identifies technical & soft skills (custom Python skill extractor)
+
+💼 Suggests job roles matching the user profile
+
+📊 Retrieves real-time job market trends using Google Search
+
+✍️ Generates a short, personalized cover letter
+
+🧩 Provides resume improvement suggestions
+
+ ✍️ This makes the job preparation process much faster and easier.
+ 
+⭐ This turns hours of manual research into a 60-second automated process.
 
 # Problem Statement
-Job seekers often struggle to understand what their resume communicates and which job roles they are best suited for. Reviewing a resume manually, identifying key skills, checking which roles match those skills, and researching market trends can take hours. Many people also lack guidance on how to improve their resumes or write strong cover letters. The process is time-consuming, confusing, and often leads to missed opportunities.
+Job seekers often struggle with:
+
+Understanding what their resume communicates
+
+Identifying their strongest skills
+
+Matching themselves to the right job roles
+
+Researching market trends, salaries, and in-demand skills
+
+Writing a clean, professional cover letter
+
+The process is slow, confusing, and often leads to missed opportunities.
+
 # ⭐ SCAA Solve this:
- 1. Saves Time
-The system instantly analyzes a resume, extracts skills, and provides insights that would normally take hours of manual research.
- 2. Accurate Skill Identification
-Automatically identifies relevant technical and soft skills from the resume using a custom skill extractor.
- 3. Personalized Job Role Recommendations
-Suggests job roles that match the user's skills, improving clarity and helping candidates target the right positions.
- 4. Real-Time Market Insights
-Using the google_search tool, the agent provides up-to-date information on:
-a. In-demand skills
-b. Salary trends
-c.Job market requirements
-d.This helps users make informed career decisions.
- 5. Resume Improvement Tips
-The agent highlights weaknesses or missing elements and gives clear suggestions for improving resume quality.
- 6. Automated Cover Letter Generation
-Creates a professional cover letter based on the resume content and extracted skills, reducing effort for job applications.
- 7. Easy to Use
-Everything runs inside one Kaggle notebook — no extra software or setup required.
- 8. Practical and Real-World Friendly
-Offers guidance similar to a career counselor but faster, more scalable, and available anytime.
+⚡ Saves Time
+Instantly analyzes a resume and provides structured insights.
+
+🎯 Accurate Skill Extraction
+Custom Python extractor identifies relevant technical & soft skills.
+
+💼 Personalized Role Recommendations
+Suggests accurate job roles based on identified skills.
+
+🌐 Real-Time Market Insights
+With google_search, it retrieves:
+
+In-demand skills
+
+Salary ranges
+
+Job market requirements
+
+📝 Resume Improvement Tips
+Highlights missing elements and improvement areas.
+
+✍️ Auto Cover Letter Generation
+Creates a clean, professional cover letter in seconds.
+
+💻 Easy to Use
+Runs entirely inside Kaggle Notebook — no setup required.
+
+🤝 Practical & Real-World Friendly
+Works like a fast, AI-driven career counselor.
 
 # 🧠 How It Works
 
-## Upload Resume (PDF)
-The system reads your resume using pdfplumber.
-## Extract Skills
-A custom Python function matches your skills from a predefined skills list.
-## Agent Analysis (ADK + Gemini)
-The SCAA agent understands the resume and provides:
+1️⃣ Upload Resume (PDF)
 
-## Key skills
-. Summary of the candidate
+The system uses pdfplumber to extract resume text.
 
-. Suitable job roles
+2️⃣ Extract Skills
 
-. Resume improvement tips
+A custom Python script compares resume text with a pre-built skills list.
 
-. Google Search Tool
+3️⃣ ADK Agent + Gemini Analysis
 
-. The agent gets:
+The agent produces:
 
-. In-demand skills for 2025
-. Salary ranges
+Key skills
 
-. Market trends
+Candidate summary
 
-. Cover Letter Generation
+Suitable job roles
 
-. The agent uses resume content to create a professional cover letter.
+Resume improvement suggestions
+
+4️⃣ Google Search Tool
+
+Fetches real-time insights:
+
+Trending skills in 2025
+
+Salary expectations
+
+Market demand
+
+5️⃣ Cover Letter Generation
+
+Gemini creates a personalized cover letter based on skills + summary.
+
+6️⃣ Display Results
+
+All outputs show cleanly inside the notebook.
 
 # 🛠 Technologies Used
 1.Google ADK (Agent Development Kit).
@@ -90,23 +132,25 @@ The SCAA agent understands the resume and provides:
 
 # ▶️ How to Run the Project
 
-Upload your resume PDF to the notebook environment
+1. Upload your resume PDF to Kaggle.
 
-Run the notebook step-by-step
+2. Run the notebook cells in order.
 
-The agent will extract skills and analyze your resume
+3. The system will:
 
-View:
+Extract skills
 
-Summary
+Summarize your profile
 
-Job suggestions
+Recommend job roles
 
-Market insights
+Retrieve market insights
 
-Cover letter
+Generate a cover letter
 
-# 🎯 Features
+All results appear directly in notebook output cells.
+
+# 🎯 Key Features
 
 ✔ Resume understanding
 
@@ -121,16 +165,6 @@ Cover letter
 ✔ Auto-generated cover letter
 
 ✔ Runs fully in Kaggle Notebook
-
-# 📌 Future Improvements
-
-Adding multi-agent workflow
-
-Adding memory for user history
-
-Deploying a simple web UI
-
-Creating job–resume match scoring
 
 # ⭐ Architecture Overview
 
@@ -150,7 +184,7 @@ A custom Python skill extractor identifies relevant skills from the resume text 
 
 The extracted skills are passed into the agent prompt for structured reasoning.
 
-C. AI Agent Layer (ADK)
+C. AI Agent Layer (ADK + Gemini)
 
 A single ADK agent powered by Gemini 2.5 Flash Lite processes:
 
@@ -220,5 +254,18 @@ SCAA plans the analysis, quizzes the resume, evaluates skills, predicts weakness
 # ⭐ Flowchart Diagram
 ![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/Architecture.png)
 
- 
+# 📌 Future Improvements
 
+Adding multi-agent workflow
+
+Adding memory for user history
+
+Deploying a simple web UI
+
+Creating job–resume match scoring 
+
+## 🏆 Status
+
+✔ Completed for Google × Kaggle Agents Intensive Capstone
+✔ Includes full system documentation
+✔ Ready for demo & submission
