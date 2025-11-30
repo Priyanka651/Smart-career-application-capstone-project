@@ -310,6 +310,9 @@ SCAA plans the analysis, quizzes the resume, evaluates skills, predicts weakness
 ![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/Cover_letter_generated.png)
 
 
+![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/Resume_Text_Extracted.png)
+
+
 
 # ⭐ Flowchart Diagram
 ![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/flowchart.png?raw=true)
