@@ -117,6 +117,7 @@ Gemini creates a personalized cover letter based on skills + summary.
 
 All outputs show cleanly inside the notebook.
 
+![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/aB7_ojfFXqI3JpdkMLaE8.png).
 # 🛠 Technologies Used
 1.Google ADK (Agent Development Kit).
 
