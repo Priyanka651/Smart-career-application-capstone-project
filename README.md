@@ -253,7 +253,7 @@ SCAA helps job seekers save time, get personalized insights, and make better car
 SCAA plans the analysis, quizzes the resume, evaluates skills, predicts weaknesses, revises recommendations, and adapts its outputs to provide accurate, personalized career guidance.
 
 # ⭐ Flowchart Diagram
-![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/Architecture.png)
+![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/flowchart.drawio.png)
 
 # 📌 Future Improvements
 
