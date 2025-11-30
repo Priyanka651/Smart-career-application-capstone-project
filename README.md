@@ -131,6 +131,46 @@ All outputs show cleanly inside the notebook.
 
 6.Kaggle Notebook environment.
 
+# 📂 Project Structure
+
+```
+Smart-career-application/
+│
+├── notebooks/
+│   └── SCAA_notebook.ipynb        # Main Kaggle notebook
+│
+├── utils/
+│   └── skill_extractor.py         # Custom Python skill extraction logic
+│
+├── data/
+│   └── sample_resume.pdf          # Demo PDF for testing
+│
+├── Images/
+│   ├── SCAA.png
+│   ├── architecture.png
+│   └── flowchart.drawio.png
+│
+├── README.md                      # Project documentation
+└── requirements.txt               # Required libraries
+
+```
+
+# 📦 Requirements
+
+This project requires the following Python libraries:
+
+```
+google-adk
+google-genai
+pdfplumber
+pandas
+numpy
+kaggle_secrets
+
+```
+All libraries are pre-installed in Kaggle notebooks.
+No local installation is required.
+
 # ▶️ How to Run the Project
 
 1. Upload your resume PDF to Kaggle.
@@ -173,13 +213,13 @@ The Smart Career Application Assistant (SCAA) follows a modular pipeline archite
 
 The architecture includes the following major components:
 
-A. Input Layer
+# A. Input Layer
 
 User provides a PDF resume uploaded to Kaggle.
 
 The system extracts raw text using pdfplumber.
 
-B. Preprocessing Layer
+# B. Preprocessing Layer
 
 A custom Python skill extractor identifies relevant skills from the resume text using a predefined skills database.
 
@@ -231,6 +271,21 @@ All components run inside a Kaggle Notebook.
 
 Results are displayed to the user in structured, easy-to-read outputs.
 
+# 🧬 Agent Prompt Template
+
+```
+You are a Smart Career Application Assistant.
+
+Given resume text and extracted skills:
+1. Summarize the candidate profile
+2. Identify strengths and missing skills
+3. Recommend suitable job roles
+4. Suggest improvements for the resume
+5. Retrieve market insights using google_search
+6. Generate a short professional cover letter
+
+```
+
 # ⭐ 2. Architecture Summary
 
 The Smart Career Application Assistant (SCAA) is an intelligent resume analysis system built using Google’s Agent Development Kit (ADK) and Gemini models. It automates the job preparation process by reading a resume, extracting skills, recommending suitable job roles, analyzing market demand, suggesting resume improvements, and generating professional cover letters.
@@ -252,18 +307,31 @@ SCAA helps job seekers save time, get personalized insights, and make better car
 # (Plan → Quiz → Evaluate → Predict Weakness → Revise → Adapt Next)
 SCAA plans the analysis, quizzes the resume, evaluates skills, predicts weaknesses, revises recommendations, and adapts its outputs to provide accurate, personalized career guidance.
 
+# 🧪 Sample Outputs
+
+
+
 # ⭐ Flowchart Diagram
 ![Alt text](https://github.com/Priyanka651/Smart-career-application-capstone-project/blob/main/Images/flowchart.drawio.png)
 
+# ⚠️ Limitations
+- Works best with English-language resumes
+
+- PDF extraction quality depends on resume formatting
+
+- google_search accuracy may vary by region
+
+- Not a replacement for professional career counseling
+
 # 📌 Future Improvements
 
-Adding multi-agent workflow
+- Adding multi-agent workflow
 
-Adding memory for user history
+- Adding memory for user history
 
-Deploying a simple web UI
+- Deploying a simple web UI
 
-Creating job–resume match scoring 
+- Creating job–resume match scoring 
 
 ## 🏆 Status
 
