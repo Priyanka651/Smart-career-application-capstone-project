@@ -1,4 +1,4 @@
-# Smart-career-application
+# Smart-Career-Application Assistant (SCAA)
 
 
 # Google × Kaggle Agents Intensive – Capstone Project
