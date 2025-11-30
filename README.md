@@ -32,19 +32,19 @@ The system automatically:
 ⭐ This turns hours of manual research into a 60-second automated process.
 
 # Problem Statement
-Job seekers often struggle with:
+- Job seekers often struggle with:
 
-Understanding what their resume communicates
+- Understanding what their resume communicates
 
-Identifying their strongest skills
+- Identifying their strongest skills
 
-Matching themselves to the right job roles
+- Matching themselves to the right job roles
 
-Researching market trends, salaries, and in-demand skills
+- Researching market trends, salaries, and in-demand skills
 
-Writing a clean, professional cover letter
+- Writing a clean, professional cover letter
 
-The process is slow, confusing, and often leads to missed opportunities.
+- The process is slow, confusing, and often leads to missed opportunities.
 
 # ⭐ SCAA Solve this:
 ⚡ Saves Time
@@ -59,11 +59,11 @@ Suggests accurate job roles based on identified skills.
 🌐 Real-Time Market Insights
 With google_search, it retrieves:
 
-In-demand skills
+- In-demand skills
 
-Salary ranges
+- Salary ranges
 
-Job market requirements
+- Job market requirements
 
 📝 Resume Improvement Tips
 Highlights missing elements and improvement areas.
@@ -91,23 +91,23 @@ A custom Python script compares resume text with a pre-built skills list.
 
 The agent produces:
 
-Key skills
+- Key skills
 
-Candidate summary
+- Candidate summary
 
-Suitable job roles
+- Suitable job roles
 
-Resume improvement suggestions
+- Resume improvement suggestions
 
 4️⃣ Google Search Tool
 
 Fetches real-time insights:
 
-Trending skills in 2025
+- Trending skills in 2025
 
-Salary expectations
+- Salary expectations
 
-Market demand
+- Market demand
 
 5️⃣ Cover Letter Generation
 
@@ -179,15 +179,15 @@ No local installation is required.
 
 3. The system will:
 
-Extract skills
+- Extract skills
 
-Summarize your profile
+- Summarize your profile
 
-Recommend job roles
+- Recommend job roles
 
-Retrieve market insights
+- Retrieve market insights
 
-Generate a cover letter
+- Generate a cover letter
 
 All results appear directly in notebook output cells.
 
@@ -225,47 +225,47 @@ A custom Python skill extractor identifies relevant skills from the resume text 
 
 The extracted skills are passed into the agent prompt for structured reasoning.
 
-C. AI Agent Layer (ADK + Gemini)
+# C. AI Agent Layer (ADK + Gemini)
 
 A single ADK agent powered by Gemini 2.5 Flash Lite processes:
 
-Resume summary
+- Resume summary
 
-Job recommendations
+- Job recommendations
 
-Resume improvement suggestions
+- Resume improvement suggestions
 
-Market insights
+- Market insights
 
-D. Tool Integration Layer
+# D. Tool Integration Layer
 
-google_search tool extends the agent with real-time data access.
+- google_search tool extends the agent with real-time data access.
 
-Retrieves trending skills
+- Retrieves trending skills
 
-Fetches salary expectations
+- Fetches salary expectations
 
-Finds job role requirements
+- Finds job role requirements
 
-E. Output Generation Layer
+# E. Output Generation Layer
 
 The agent produces:
 
-Key skills
+- Key skills
 
-Summary of candidate
+- Summary of candidate
 
-Suggested job roles
+- Suggested job roles
 
-Resume improvement tips
+- Resume improvement tips
 
-In-demand skills
+- In-demand skills
 
-Market salary trends
+- Market salary trends
 
-Professional cover letter
+- Professional cover letter
 
-F. Notebook Interface Layer
+# F. Notebook Interface Layer
 
 All components run inside a Kaggle Notebook.
 
@@ -292,17 +292,17 @@ The Smart Career Application Assistant (SCAA) is an intelligent resume analysis 
 
 The project integrates:
 
-PDF text extraction
+- PDF text extraction
 
-Custom skill-extraction tool
+- Custom skill-extraction tool
 
-LLM-powered reasoning
+- LLM-powered reasoning
 
-Real-time search using google_search
+- Real-time search using google_search
 
-Comprehensive career guidance pipeline
+- Comprehensive career guidance pipeline
 
-SCAA helps job seekers save time, get personalized insights, and make better career decisions with accurate, AI-driven recommendations.
+- SCAA helps job seekers save time, get personalized insights, and make better career decisions with accurate, AI-driven recommendations.
 
 # (Plan → Quiz → Evaluate → Predict Weakness → Revise → Adapt Next)
 SCAA plans the analysis, quizzes the resume, evaluates skills, predicts weaknesses, revises recommendations, and adapts its outputs to provide accurate, personalized career guidance.
