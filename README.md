@@ -139,16 +139,12 @@ Smart-career-application/
 ├── notebooks/
 │   └── SCAA_notebook.ipynb        # Main Kaggle notebook
 │
-├── utils/
-│   └── skill_extractor.py         # Custom Python skill extraction logic
-│
 ├── data/
 │   └── sample_resume.pdf          # Demo PDF for testing
 │
 ├── Images/
 │   ├── SCAA.png
-│   ├── architecture.png
-│   └── flowchart.drawio.png
+│   └── flowchart.png
 │
 ├── README.md                      # Project documentation
 └── requirements.txt               # Required libraries
