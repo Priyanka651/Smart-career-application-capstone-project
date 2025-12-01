@@ -302,7 +302,7 @@ The project integrates:
 
 - SCAA helps job seekers save time, get personalized insights, and make better career decisions with accurate, AI-driven recommendations.
 
-# (Plan → Quiz → Evaluate → Predict Weakness → Revise → Adapt Next)
+ (Plan → Quiz → Evaluate → Predict Weakness → Revise → Adapt Next)
 SCAA plans the analysis, quizzes the resume, evaluates skills, predicts weaknesses, revises recommendations, and adapts its outputs to provide accurate, personalized career guidance.
 
 # 🧪 Sample Outputs
